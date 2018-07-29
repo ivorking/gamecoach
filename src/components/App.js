@@ -42,7 +42,7 @@ class App extends Component {
         <p className="App-intro">
           React implementation of the Board Game Sherpa web app.
         </p>
-        <Button color="danger">Danger</Button>
+
       </div>
     );
   }
