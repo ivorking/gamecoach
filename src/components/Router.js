@@ -13,9 +13,9 @@ const Router = () => (
       <Switch>
          <Route exact path = "/" component = { App } />
          <Route exact path = "/HomePlayer/" component = { HomePlayer } />
-         <Route exact path = "/FindSherpa" component = { FindSherpa } />
+         <Route path = "/findsherpa/" component = { FindSherpa } />
          <Route exact path = "/HomeSherpa" component = { HomeSherpa } />
-         <Route exact path = "/FindPlayer" component = { FindEvent } />
+         <Route exact path = "/FindEvent" component = { FindEvent } />
          <Route exact path = "/Accounts" component = { Accounts } />
          <Route component = { NotFound } />
       </Switch>

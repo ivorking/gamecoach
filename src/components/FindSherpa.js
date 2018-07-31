@@ -4,11 +4,7 @@ class FindSherpa extends Component {
    render() {
       return (
          <div>
-            <h2>Board Games Sherpa</h2>
-            <ul>
-               <li><a href="/#/findsherpa">Book a sherpa</a></li>
-               <li><a href="/#/accounts">Update account</a></li>
-            </ul>
+            <h2>Find a Sherpa for your gaming session!</h2>
          </div>
       )
    }
