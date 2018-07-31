@@ -6,9 +6,9 @@ class HomePlayer extends Component {
    render() {
       return (
          <div>
-            <h2>Board Games Sherpa</h2>
+            <h2 className = "App-header">Board Games Sherpa</h2>
             <p className = "Page-type">Player Home</p>
-            <p>Select a menu item below...</p>
+            <p className = "Ordinary-text">Select a menu item below...</p>
             <ul>
                <li><a href="/findsherpa">Find a Sherpa for an event</a></li>
                <li><a href="/findsherpa">Update favourite games list</a></li>

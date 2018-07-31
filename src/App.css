@@ -8,10 +8,13 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  height: 80px;
   padding: 20px;
-  color: white;
+  /* display: inline-block; */
+  margin: auto;
+  text-align: center;
+  color: orange;
+  background-color: black;
 }
 
 .App-title {
@@ -28,5 +31,11 @@
 }
 
 .Page-type {
-  color: green;
+  color: black;
+  float: right;
+  margin-top: 10px;
+}
+
+.Ordinary-text {
+  margin-top: 10px;
 }

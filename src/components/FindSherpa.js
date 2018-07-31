@@ -4,10 +4,11 @@ class FindSherpa extends Component {
    render() {
       return (
          <div>
-            <h2>Find a Sherpa for your gaming session!</h2>
+            <p>Find a Sherpa for your gaming session!</p>
          </div>
       )
    }
+
 }
 
 export default FindSherpa;

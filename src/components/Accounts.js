@@ -5,10 +5,7 @@ class Accounts extends Component {
       return (
          <div>
             <h2>Board Games Sherpa</h2>
-            <ul>
-               <li><a href="/#/findsherpa">Book a sherpa</a></li>
-               <li><a href="/#/accounts">Update account</a></li>
-            </ul>
+            <p>Here you can update your account settings.</p>
          </div>
       )
    }
