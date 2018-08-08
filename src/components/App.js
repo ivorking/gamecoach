@@ -38,10 +38,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <h1 className="App-title">Board Games Sherpa</h1>
+          <h1 className="App-title">Board Games Coach</h1>
         </header>
         <p className="App-intro">
-          React implementation of the Board Games Sherpa web app.
+          React implementation of a Board Games Coach web app.
         </p>
       </div>
     );

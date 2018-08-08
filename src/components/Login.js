@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Login = (props) => (
    <nav className = "login">
-      <h2>Board Game Sherpa Login</h2>
+      <h2>Board Game Coach Login</h2>
       <p>Sign into your account</p>
       <button
          className = 'facebook'

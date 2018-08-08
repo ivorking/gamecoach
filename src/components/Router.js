@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import HomePlayer from '../components/HomePlayer';
-import HomeSherpa from '../components/HomeSherpa';
-import FindSherpa from '../components/FindSherpa';
+import HomeCoach from '../components/HomeCoach';
+import FindCoach from '../components/FindCoach';
 import FindEvent from '../components/FindEvent';
 import Accounts from '../components/Accounts';
 import GamesPage from '../components/GamesPage';
@@ -14,8 +14,8 @@ const Router = () => (
       <Switch>
          <Route exact path = "/" component = { App } />
          <Route exact path = "/HomePlayer/" component = { HomePlayer } />
-         <Route path = "/findsherpa/" component = { FindSherpa } />
-         <Route exact path = "/HomeSherpa" component = { HomeSherpa } />
+         <Route path = "/findcoach/" component = { FindCoach } />
+         <Route exact path = "/HomeCoach" component = { HomeCoach } />
          <Route exact path = "/FindEvent" component = { FindEvent } />
          <Route exact path = "/Accounts" component = { Accounts } />
          <Route exact path = "/GamesPage" component = { GamesPage } />

@@ -1,12 +1,12 @@
 import React, { PureComponent as Component } from 'react';
 
-class HomeSherpa extends Component {
+class HomeCoach extends Component {
    render() {
       return (
          <div>
-            <h2>Board Games Sherpa</h2>
+            <h2>Board Games Coach</h2>
             <ul>
-               <li><a href="/#/findsherpa">Book a sherpa</a></li>
+               <li><a href="/#/findcoach">Book a coach</a></li>
                <li><a href="/#/accounts">Update account</a></li>
             </ul>
          </div>
@@ -14,4 +14,4 @@ class HomeSherpa extends Component {
    }
 };
 
-export default HomeSherpa;
+export default HomeCoach;

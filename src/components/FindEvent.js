@@ -4,7 +4,7 @@ class FindEvent extends Component {
    render() {
       return (
          <div>
-            <p>Find an Event to Sherpa!</p>
+            <p>Find an Event to Coach!</p>
          </div>
       )
    }
