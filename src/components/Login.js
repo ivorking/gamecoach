@@ -12,7 +12,7 @@ const Login = (props) => (
          Login with Facebook
       </button>
    </nav>
-)
+);
 
 Login.propTypes = {
    authenticate: PropTypes.func.isRequired
