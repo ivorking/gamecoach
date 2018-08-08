@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 class FindSherpa extends Component {
+
    render() {
       return (
          <div>
