@@ -1,9 +1,10 @@
-## Board Game Sherpa - React/Firebase version
+## Game Coach
 
-This is a rebuild of the Board Game Sherpa app, originally developed in Rails. This version uses React, as well as:
+This is a Game Coach app, which has some similarities with Board Game Sherpa, but is an implementation using React, as well as:
 * Bootstrap
 * Firebase (database, user authentication)
 * React Router 4
+* Redux
 
 It's still a work in progress, developed by Ivor King.
 

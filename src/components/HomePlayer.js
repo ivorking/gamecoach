@@ -11,7 +11,7 @@ class HomePlayer extends Component {
             <p className = "Ordinary-text">Select a menu item below...</p>
             <ul>
                <li><a href="/findsherpa">Find a Sherpa for an event</a></li>
-               <li><a href="/findsherpa">Update favourite games list</a></li>
+               <li><a href="/GamesPage">Update favourite games list</a></li>
                <li><a href="/accounts">Account</a></li>
             </ul>
          </div>
