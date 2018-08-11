@@ -16,10 +16,13 @@ export default class MainNav extends React.Component {
           <div className = "ml-auto">
           <Nav>
             <NavItem>
-              <NavLink href="#">Find a Coach</NavLink>
+              <NavLink href="/FindCoach/">Find a Coach</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Update gameslist</NavLink>
+              <NavLink href="/GamesSelect/">Update gameslist</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/Accounts/">My account</NavLink>
             </NavItem>
           </Nav>
           </div>
