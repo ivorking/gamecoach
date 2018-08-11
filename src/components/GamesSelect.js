@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import ReactDom from 'react-dom';
 
-class GamesPage extends Component {
+class SelectGames extends Component {
    render() {
       return (
          <div>
@@ -11,4 +10,4 @@ class GamesPage extends Component {
    }
 }
 
-export default GamesPage;
+export default SelectGames;

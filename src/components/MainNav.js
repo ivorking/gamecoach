@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Collapse, Navbar, NavbarToggler, Alert, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import './styles/App.css';
 
 export default class MainNav extends React.Component {

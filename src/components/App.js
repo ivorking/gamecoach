@@ -1,22 +1,6 @@
 import React, { Component } from 'react';
 import './styles/App.css';
 import MainNav from '../components/MainNav';
-import { Nav, NavItem, NavLink } from 'reactstrap';
-// import {
-//   Collapse,
-//   Navbar,
-//   NavbarToggler,
-//   NavbarBrand,
-//   Nav,
-//   NavItem,
-//   NavDropdown,
-//   NavLink,
-//   Container,
-//   Row,
-//   Col,
-//   Jumbotron,
-//   Button
-// } from 'react-bootstrap';
 
 class App extends Component {
 
@@ -38,11 +22,11 @@ class App extends Component {
     return (
       <div>
         <header className="App-header">
-          <h1 className="App-title">Board Games Coach</h1>
+          <h1 className="App-title">Board Games Coach </h1>
         </header>
         <MainNav />
         <p className="App-intro"><br />
-          React implementation of a Board Games Coach web app.
+          Board, card and video games coaching app - find the perfect coach for yourself or your next games night!
         </p>
       </div>
     );

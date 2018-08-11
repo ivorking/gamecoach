@@ -7,7 +7,7 @@ class FindEvent extends Component {
             <p>Find an Event to Coach!</p>
          </div>
       )
-   }
-}
+   };
+};
 
 export default FindEvent;

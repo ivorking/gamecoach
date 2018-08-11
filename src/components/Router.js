@@ -5,7 +5,7 @@ import HomeCoach from '../components/HomeCoach';
 import FindCoach from '../components/FindCoach';
 import FindEvent from '../components/FindEvent';
 import Accounts from '../components/Accounts';
-import GamesPage from '../components/GamesPage';
+import GamesSelect from '../components/GamesSelect';
 import App from './App';
 import NotFound from './NotFound';
 
@@ -14,11 +14,11 @@ const Router = () => (
       <Switch>
          <Route exact path = "/" component = { App } />
          <Route exact path = "/HomePlayer/" component = { HomePlayer } />
-         <Route path = "/findcoach/" component = { FindCoach } />
+         <Route exact path = "/FindCoach/" component = { FindCoach } />
          <Route exact path = "/HomeCoach" component = { HomeCoach } />
          <Route exact path = "/FindEvent" component = { FindEvent } />
          <Route exact path = "/Accounts" component = { Accounts } />
-         <Route exact path = "/GamesPage" component = { GamesPage } />
+         <Route exact path = "/GamesSelect" component = { GamesSelect } />
          <Route component = { NotFound } />
       </Switch>
    </BrowserRouter>
