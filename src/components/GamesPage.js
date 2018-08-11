@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import React-dom from 'react-dom';
+import ReactDom from 'react-dom';
 
 class GamesPage extends Component {
    render() {
