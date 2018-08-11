@@ -37,11 +37,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <MainNav />
         <header className="App-header">
           <h1 className="App-title">Board Games Coach</h1>
         </header>
-        <p className="App-intro">
+        <MainNav />
+        <p className="App-intro"><br />
           React implementation of a Board Games Coach web app.
         </p>
       </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, Alert, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import './styles/App.css';
 
 export default class MainNav extends React.Component {
 
@@ -10,16 +11,18 @@ export default class MainNav extends React.Component {
   render() {
     return (
       <div>
-        <Nav color="light" light expand="md">
-        <NavbarBrand href="/">Coach</NavbarBrand>
-        <Nav className="navlayout">
-          <NavItem>
-            <NavLink href="#">Find a Coach</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#">Update your games</NavLink>
-          </NavItem>
-        </Nav>
+        <Nav>
+          <NavbarBrand href="/">Home</NavbarBrand>
+          <div className = "ml-auto">
+          <Nav>
+            <NavItem>
+              <NavLink href="#">Find a Coach</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#">Update gameslist</NavLink>
+            </NavItem>
+          </Nav>
+          </div>
         </Nav>
       </div>
     );
