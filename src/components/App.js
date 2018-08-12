@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles/App.css';
 import MainNav from '../components/MainNav';
+import FindCoach from '../components/FindCoach';
 
 class App extends Component {
 
@@ -17,6 +18,21 @@ class App extends Component {
       isOpen: !this.state.isOpen
     });
   }
+
+  // getInitialState: function() {
+  //   return {
+  //     eventDate: this.props.eventDate;
+  //   }
+  // }
+
+  changeState() {
+
+  }
+
+  // if (FindCoach.state.selectedDay) {
+  //   var dateStore = this.state.selectedDay;
+  //   return <Redirect to='/' />
+  // }
 
   render() {
     return (

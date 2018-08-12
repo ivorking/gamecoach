@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 import MainNav from '../components/MainNav';
 import { Jumbotron, Button } from 'reactstrap';
+import DayPicker from 'react-day-picker';
+import 'react-day-picker/lib/style.css';
+import { Redirect } from 'react-router-dom';
+import App from '../components/App';
 
 class FindCoach extends Component {
 
    constructor(props) {
 
       super(props);
-
+      this.handleDayClick = this.handleDayClick.bind(this);
       this.state = {
-         displayCalendar: false
+         displayCalendar: false,
+         selectedDay: null
       };
 
    }
@@ -20,17 +25,27 @@ class FindCoach extends Component {
       })
    }
 
+   handleDayClick(day, { selected }) {
+      this.setState({
+         selectedDay: selected ? undefined : day,
+      });
+   }
+
    render() {
 
       let calendar = null;
       if (this.state.displayCalendar) {
          calendar = (
-            <div>
-               <p>
-                  muggins
-               </p>
-            </div>
+            <DayPicker
+               selectedDays={this.state.selectedDay}
+               onDayClick={this.handleDayClick}
+            />
          )
+      }
+
+      if (this.state.selectedDay) {
+         var eventDate = this.props.selectedDay;
+         return <Redirect to='/' />
       }
 
       return (
